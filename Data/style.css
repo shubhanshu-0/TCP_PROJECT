@@ -1,0 +1,111 @@
+.heading {
+  min-height: 3vh;
+  font-size: 1.7rem;
+}
+
+.list ul {
+  list-style: disc;
+}
+.footer
+{
+  background: #162c3b;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul li
+{
+  list-style: none;
+}
+.footer ul li a
+{
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 15px;
+}
+.footer ul li a img
+{
+  max-width: 20px;
+  filter: invert(1);
+}
+.width{
+  max-width: 910px;
+}
+.spinner{
+  align-content: space-between;
+}
+.space{
+  margin-left: 14vw;
+  margin-right: 14vw;
+}
+.services .heading{
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.services .text{
+  color: white;
+  font-size: 1.2em;
+}
+.review h2{
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.review-text{
+  display: flex;
+  justify-content: center;
+
+}
+.review-text p{
+  font-size: 0.7em;
+}
+.review-text .g{
+  color: blue;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.review-text .o1{
+  color: red;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.review-text .o2{
+  color: rgb(214, 203, 0);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.review-text .g{
+  color: blue;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.review-text .l{
+  color: green;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.review-text .e{
+  color: red;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.review span
+{
+  color: rgb(88, 88, 221);
+  font-size: 1.3em;
+  font-weight: 500px;
+}
+.services .heading span
+{
+  color: rgb(88, 88, 221);
+  font-size: 1.3em;
+  font-weight: 500;
+}

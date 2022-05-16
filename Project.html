@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="Data/style.css"> -->
+    <title>Web Development</title>
+    <link rel="stylesheet" href="Data/style.css" />
+  </head>
+
+  <body>
+
+      <!--! Navbar -->
+    <div style="background-color: rgb(49, 138, 221) ; color: aliceblue;">
+        Try voucher code MUM10 for 10% OFF 😜. Expires 31/05/2022.
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style=" background-color: rgb(41, 159, 248) ;";">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src=" 0.png" style="height:70px;"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link location" aria-current="page" href="#location"
+                >LOCATION</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link service" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link resources" href="#">RESOURCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blog" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link review" href="#review">REVIEW</a>
+            </li>
+            
+          </ul>
+          
+          <form class="d-flex">
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-bs-toggle="modal"
+              data-bs-target="#contactModal"
+              style="border-radius: 20px;"
+            >
+              GET QUOTE
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
+    <!-- !NAVBAR ME JO CONTACT KA OPTION H USME JO FORM NIKALTA H Y USKA H  -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="cntactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form my-4 mx-4">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="xyz@gmail.com"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1"
+                    >Cleaning You Want</label
+                  >
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option value="Web">Single Room</option>
+                    <option value="Tech">Two Rooms</option>
+                    <option value="Others">Other Customizations</option>
+                  </select>
+                </div>
+                <div class="mb-3 my-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Elaborate Your Concern</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ! ye hatana h -->
+    <div class="container-fluid" style="height: 500px; background-color: rgb(41, 159, 248) ;">
+      <div class="design"><br>
+        You move out, we clean up.<br>
+        <div style="font-size: large">
+        The simplest way to get your bond back. Guaranteed.*
+        </div>
+      </div>
+      <div class="img-container">
+          <img loading="lazy" data-src="https://thisisneat.com.au/wp-content/uploads/2020/01/bond-cleaning-customers.svg" width="710" height="625" class="js-lazy entered loaded" alt="bond-cleaning-customers" data-ll-status="loaded" src="https://thisisneat.com.au/wp-content/uploads/2020/01/bond-cleaning-customers.svg" style="height:100%; width: 100%; margin-left: 69%; margin-top: 20%;">
+       </div>
+    </div>
+
+
+    <!-- ! SERVICE SECTION -->
+    <div class="album py-5 services" id="services">
+      <h1 class="text-center heading" id="tex">OUR SERVICES</h1>
+      <br />
+      <p class="text-center text" id="tex">
+        Dependable, professional, and experienced. Choose from any
+      </p>
+      <p class="text-center text" id="tex">
+        of our bond cleaning services and we’ll handle the rest.
+      </p>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                src="Data/services1.webp"
+                alt=""
+              />
+              <div class="card-body">
+                <h3 class="mx-2">End of Lease Cleaning</h3>
+                <p>
+                  With our famous 72-hour bond back guarantee*, our cleaners
+                  always ensure tenants recover their full rental deposits.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-outline-secondary"
+                      style="color: blue; border: none;"
+                      >LEARN MORE</a
+                    >
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                src="Data/services2.webp"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h3 class="mx-2">Vacate Cleaning</h3>
+                <p>
+                  Our 5-star rated cleaners specialise in helping renters pass
+                  their final vacate inspections and do all the cleaning work
+                  needed to be done.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-outline-secondary"
+                      style="color: blue; border: none;"
+                      >LEARN MORE</a
+                    >
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                src="Data/services3.webp"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h3 class="mx-2">Moving Cleaning</h3>
+                <p>
+                  Our cleaning teams will make sure your property is ready for
+                  sale, a rental inspection, or for your family to move into.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-outline-secondary"
+                      style="color: blue; border: none;"
+                      >LEARN MORE</a
+                    >
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ! REVIEW SECTION START HUA H SECION NI BNAYA HU DIVISIONS ME DIVIDED HOKE BNA H -->
+    <div
+      class="heading d-flex justify-content-center align-content-center my-3 review" id="review"
+    >
+      <h2 >OUR REVIEWS</h2>
+    </div>
+    <div class="heading d-flex justify-ontent-center align-content-center review-text mx-3">
+      <p>We believe our work speaks for itself, but our customers vouch for us too. </p>
+    </div>
+    <div class="heading d-flex justify-ontent-center align-content-center review-text mx-3">
+      <p>Here’s just a few of the reviews that make up our <a href="">4.8 star rating</a>  on <span class="g">G</span><span class="o1">o</span><span class="o2">o</span><span class="g">g</span><span class="l">l</span><span class="e">e</span>.</p>
+    </div>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Data/review4.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Data/review1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Data/review2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Data/review3.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span style="color: black;"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span style="color: black;"></span>
+      </button>
+    </div>
+
+
+    <!-- !PAGE KA BIO WALA FOOTER -->
+    <footer class="bd-footer py-4 py-md-5 mt-5" style="background-color: rgb(52, 51, 51);">
+      <div class="container py-4 py-md-5 px-4 px-md-3">
+        <div class="row">
+          <div class="col-lg-3 mb-3">
+            <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="NEAT">
+             <img src="">
+            </a>
+            <ul class="list-unstyled small text-muted">
+              <img src="neat.png" style="height: 80px;">
+              <li class="mb-2">This is Neat is a bond cleaning service keeping tenants, real estate agents and property managers happy all across Sydney and Melbourne.</li>
+              
+                
+            </ul>
+          </div>
+          <div class="col-4 col-lg-2 offset-lg-1 mb-3">
+            <h5 class="mx-4" style="color:white ; border-bottom: 2px solid white; padding: 9px;">SERVICES</h5> 
+            <ul class="list-unstyled" >
+              <li class="mb-2"><a href="#" style="text-decoration: none;">End of Lease Cleaning</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Vacate Cleaning</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Moving Cleanings</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-lg-2 mb-3">
+            <h5 class="mx-4" style="color:white ; border-bottom: 2px solid white; padding: 9px;">LOCATIONS</h5>
+            <ul class="list-unstyled" >
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Sydney</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Melbourne</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Inner West</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Eastern Suburbs</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-lg-2 mb-3">
+            <h5 class="mx-4" style="color:white ; border-bottom: 2px solid white; padding: 9px;">CONTACTS </h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" style="text-decoration: none;">This is Neat Cleaning</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">39 Douglas Street
+              </a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Redfern, NSW 2016</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">Australia</a></li>
+              <li class="mb-2"><a href="#" style="text-decoration: none;">0488 845 135</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- !MERA BIO KA FOOTER -->
+    <section class="footer px-2 py-2 mx-auto">
+      <p class="text">&copy Neat Cleaning</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com"
+            class="fb"
+            ><img src="Data/facebook.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com"
+            ><img src="Data/twitter.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/shubhanshusaraf/"
+            ><img src="Data/instagram.png" "=""></a
+          >
+        </li>
+      </ul>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

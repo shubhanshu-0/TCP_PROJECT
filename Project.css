@@ -1,0 +1,72 @@
+
+#but{
+    border: 2px solid snow;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    color: aliceblue;
+    float: right;
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li{
+    margin-left: 50px;
+}
+.eff{
+    background-color: beige;
+    
+}
+.h{
+    height: 10px;
+    width: 30px;
+
+}
+.design{
+    font-family: 'Montserrat', 'sans-serif';
+    color: aliceblue;
+    text-align: center;
+    /* margin-top: 30px; */
+    font-size:xx-large;
+}
+#tex{
+    color: black;
+}
+.img-container{
+    width: 40%;
+    height: 60%;
+}
+.carousel-control-prev{
+    background-color: rgb(255,0,81);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    top: 50%;
+    left: 30px;
+}
+.carousel-control-next{
+    background-color: rgb(255, 0, 81);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    top: 50%;
+    right: 30px;
+}
+
+.navbar .collapse .location:hover{
+    color: rgb(160, 10, 75);
+}
+.navbar .collapse .service:hover{
+    color: rgb(102, 45, 207);
+}
+.navbar .collapse .resources:hover{
+    color: rgb(79, 13, 108);
+}
+.navbar .collapse .blog:hover{
+    color: rgb(196, 28, 58);
+}
+.navbar .collapse .review:hover{
+    color: rgb(199, 9, 213);
+}
